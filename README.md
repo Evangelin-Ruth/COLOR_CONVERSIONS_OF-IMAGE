@@ -53,10 +53,10 @@ cv2.imshow('Evangelin',image)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
-<br>
+
 ![image](https://github.com/Evangelin-Ruth/COLOR_CONVERSIONS_OF-IMAGE/assets/94219798/67b5a2ab-8815-4bdd-b921-86cfca7ebda7)
 
-<br>
+
 
 
 ### ii)Write the image
