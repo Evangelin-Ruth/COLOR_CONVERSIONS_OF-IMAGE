@@ -42,7 +42,7 @@ Split and merge HSV Image
 
 ## Output:
 ### Image
-C:\Users\EVANGELIN\Downloads\dipimage.jpg
+![image](https://github.com/Evangelin-Ruth/COLOR_CONVERSIONS_OF-IMAGE/assets/94219798/eaa2578f-4317-4ab4-8a68-b1acddc875a1)
 
 ### i) Read and display the image
 ```
@@ -54,7 +54,8 @@ cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
 <br>
-![d1](https://github.com/Evangelin-Ruth/COLOR_CONVERSIONS_OF-IMAGE/assets/94219798/b5e8d168-fc3b-4581-ac0e-9f11ddcf137e)
+![image](https://github.com/Evangelin-Ruth/COLOR_CONVERSIONS_OF-IMAGE/assets/94219798/67b5a2ab-8815-4bdd-b921-86cfca7ebda7)
+
 <br>
 
 
