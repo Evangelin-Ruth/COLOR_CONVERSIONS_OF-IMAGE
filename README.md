@@ -44,16 +44,17 @@ Split and merge HSV Image
 ### Image
 C:\Users\EVANGELIN\Downloads\dipimage.jpg
 ### i) Read and display the image
-
-<br>
+```
 import cv2
 image=cv2.imread('dipimage.jpg',1)
 image=cv2.resize(image,(350,350))
 cv2.imshow('Evangelin',image)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
+```
 <br>
 ![d1](https://github.com/Evangelin-Ruth/COLOR_CONVERSIONS_OF-IMAGE/assets/94219798/b5e8d168-fc3b-4581-ac0e-9f11ddcf137e)
+<br>
 
 
 ### ii)Write the image
