@@ -43,6 +43,7 @@ Split and merge HSV Image
 ## Output:
 ### Image
 C:\Users\EVANGELIN\Downloads\dipimage.jpg
+
 ### i) Read and display the image
 ```
 import cv2
