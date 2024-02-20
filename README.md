@@ -156,8 +156,7 @@ cv2.imshow('HSV2RGB',BGR)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
-![image](https://github.com/Evangelin-Ruth/COLOR_CONVERSIONS_OF-IMAGE/assets/94219798/77b8b50e-7507-4086-83b5-c1931dd56536)
-![image](https://github.com/Evangelin-Ruth/COLOR_CONVERSIONS_OF-IMAGE/assets/94219798/51933f88-a725-44c5-a546-d9de7a410fb6)
+![image](https://github.com/Evangelin-Ruth/COLOR_CONVERSIONS_OF-IMAGE/assets/94219798/77b8b50e-7507-4086-83b5-c1931dd56536) ![image](https://github.com/Evangelin-Ruth/COLOR_CONVERSIONS_OF-IMAGE/assets/94219798/51933f88-a725-44c5-a546-d9de7a410fb6)
 ![image](https://github.com/Evangelin-Ruth/COLOR_CONVERSIONS_OF-IMAGE/assets/94219798/c5c6d696-759b-4567-bb33-049f61b8da9f)
 
 
