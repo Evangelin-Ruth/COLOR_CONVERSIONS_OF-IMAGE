@@ -41,25 +41,32 @@ Split and merge HSV Image
 
 
 ## Output:
-### Image
-![image](https://github.com/Evangelin-Ruth/COLOR_CONVERSIONS_OF-IMAGE/assets/94219798/eaa2578f-4317-4ab4-8a68-b1acddc875a1)
 
 ### i) Read and display the image
 ```
 import cv2
 image=cv2.imread('dipimage.jpg',1)
-image=cv2.resize(image,(350,350))
 cv2.imshow('Evangelin',image)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
 
-![image](https://github.com/Evangelin-Ruth/COLOR_CONVERSIONS_OF-IMAGE/assets/94219798/67b5a2ab-8815-4bdd-b921-86cfca7ebda7)
+![image](https://github.com/Evangelin-Ruth/COLOR_CONVERSIONS_OF-IMAGE/assets/94219798/a63885b8-a515-4206-960c-e3a6bb58a895) 
+
+### ii) Resized Image
+```
+
+image=cv2.resize(image,(350,350))
+cv2.imshow('Evangelin',image)
+cv2.waitKey(0)
+cv2.destroyAllWindows()
+
+```
+![image](https://github.com/Evangelin-Ruth/COLOR_CONVERSIONS_OF-IMAGE/assets/94219798/cc0b5ee5-0ad6-4ff5-92a7-a7dd0cfbd626)
 
 
 
-
-### ii)Write the image
+### iii)Write the image
 ```
 import cv2
 image=cv2.imread('dipimage.jpg',0)
@@ -67,7 +74,7 @@ cv2.imwrite('Evangelin.jpg',image)
 ```
 ![image](https://github.com/Evangelin-Ruth/COLOR_CONVERSIONS_OF-IMAGE/assets/94219798/1bc87311-01e5-483b-87dc-989004a21e28)
 
-### iii)Shape of the Image
+### iv)Shape of the Image
 ```
 import cv2
 image=cv2.imread('dipimage.jpg',1)
@@ -76,7 +83,7 @@ print(image.shape)
 ![image](https://github.com/Evangelin-Ruth/COLOR_CONVERSIONS_OF-IMAGE/assets/94219798/14e44724-7a7b-4a8d-9749-ede5c42a8cb8)
 
 
-### iv)Access rows and columns
+### v)Access rows and columns
 ```
 import random
 import cv2
@@ -94,7 +101,7 @@ cv2.destroyAllWindows()
 ![image](https://github.com/Evangelin-Ruth/COLOR_CONVERSIONS_OF-IMAGE/assets/94219798/6e5a0201-becd-4515-aee5-fc2dbb216284)
 
 
-### v)Cut and paste portion of image
+### vi)Cut and paste portion of image
 ```
 import cv2
 image=cv2.imread('dipimage.jpg',1)
@@ -109,7 +116,7 @@ cv2.destroyAllWindows()
 
 
 
-### vi) BGR and RGB to HSV and GRAY
+### vii) BGR and RGB to HSV and GRAY
 ```
 import cv2
 img = cv2.imread('dipimage.jpg',1)
@@ -138,7 +145,7 @@ cv2.destroyAllWindows()
 ![image](https://github.com/Evangelin-Ruth/COLOR_CONVERSIONS_OF-IMAGE/assets/94219798/e692ae01-4e83-4813-bdbc-fd82ff1597a8)
 
 
-### vii) HSV to RGB and BGR
+### viii) HSV to RGB and BGR
 ```
 import cv2
 img = cv2.imread('dipimage.jpg')
@@ -161,7 +168,7 @@ cv2.destroyAllWindows()
 ![image](https://github.com/Evangelin-Ruth/COLOR_CONVERSIONS_OF-IMAGE/assets/94219798/c5c6d696-759b-4567-bb33-049f61b8da9f)
 
 
-### viii) RGB and BGR to YCrCb
+### ix) RGB and BGR to YCrCb
 ```
 import cv2
 img = cv2.imread('dipimage.jpg')
@@ -182,7 +189,7 @@ cv2.destroyAllWindows()
 ![image](https://github.com/Evangelin-Ruth/COLOR_CONVERSIONS_OF-IMAGE/assets/94219798/112fdbda-ebd1-4880-8a27-f1c7456efee4)
 
 
-### ix) Split and merge RGB Image
+### x) Split and merge RGB Image
 ```
 import cv2
 img = cv2.imread('dipimage.jpg',1)
@@ -208,7 +215,7 @@ cv2.destroyAllWindows()
 ![image](https://github.com/Evangelin-Ruth/COLOR_CONVERSIONS_OF-IMAGE/assets/94219798/8c1b1777-9003-4cf1-a8a4-28dac774c7a8)
 
 
-### x) Split and merge HSV Image
+### xi) Split and merge HSV Image
 ```
 import cv2
 img = cv2.imread("dipimage.jpg",1)
